@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+}
+
+
+div {
+    display: flex;
+}
+
+.column1 {
+    background: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50vw;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.column2 {
+    background: url(./assets/main.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50vw;
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(to right, rgba(128, 128, 128, 0.425), gray) 80%;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(68, 70, 71, 0.459);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    margin: 5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    font-size: 1.1rem;
+}
+
+.contact {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.contact:hover {
+    background-color: lightcoral;
+}
+
+.contact:active {
+    scale: 0.9;
+}
+
+.warp-club {
+    writing-mode: vertical-rl;
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+}
